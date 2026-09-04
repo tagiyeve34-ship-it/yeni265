@@ -64,7 +64,7 @@ class MapFragment : Fragment() {
             peekHeight = (150 * resources.displayMetrics.density).toInt()
             isHideable = false
             isFitToContents = true
-            state = BottomSheetBehavior.STATE_COLLAPSED
+            this.state = BottomSheetBehavior.STATE_COLLAPSED
         }
         b.layers.setOnClickListener {
             satellite = !satellite
